@@ -1,6 +1,7 @@
 /******************************************************************************
 
  conc_channels.go
+ bfanselow 2017-10-31
 
  Playing around with managing GO-routines (concurrency) and channels.
  This app spawns some workers who send their work output back to main()
@@ -12,7 +13,6 @@
        separate pakage (i.e. random.go) to be imported ("Do one thing and do
        it well").
 
- bfanselow 2017-10-31
 
 ******************************************************************************/
 package main
